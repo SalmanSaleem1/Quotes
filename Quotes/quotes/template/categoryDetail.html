@@ -1,0 +1,25 @@
+{% extends 'layout.html' %}
+{% block content %}
+<div>
+    {% for que in quote %}
+    <article class="media content-section">
+        <div class="media-body">
+            <div class="article-metadata">
+                <h4 class="mr-2"><a>{{ que.category_id }}</a></h4>
+                <small class="text-muted">Create At: {{ que.created_at.strftime('%d, %m, %Y')}}</small>
+                <!--<div class="media">-->
+                <!--<small class="text-muted">Updated At: {{ que.updated_at.strftime('%d, %m, %Y')}}</small>-->
+                <!--</div>-->
+                 <h2><p class="text-bold">{{ que.quote }}</p></h2>
+            </div>
+        </div>
+        <!--<div style="text-align: right">-->
+            <!--<h4 class="text-arial">{{ que.language }}</h4>-->
+
+        <!--</div>-->
+    </article>
+    <hr>
+    {% endfor %}
+
+</div>
+{% endblock %}

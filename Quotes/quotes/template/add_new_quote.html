@@ -1,0 +1,35 @@
+{% extends 'layout.html' %}
+{% block content %}
+<center>
+    <div class="content-section" style="width: 600px">
+        <form action="" method="post">
+            <fieldset>
+                <legend>{{ legend }}</legend>
+                {{ form.hidden_tag() }}
+                <select name="select_value">
+                    {% for cat in categories %}
+                    <option >{{ cat.category_name }}</option>
+                    {% endfor %}
+                </select>
+                <div class="form-group">
+                    {{ form.quote(class="form-control from-control-lg", placeholder='Quote')}}
+                </div>
+                <div class="form-group">
+                    {{ form.language(class="form-control from-control-lg", placeholder='Language')}}
+                </div>
+                <div class="form-group">
+                    {{ form.color_code(class="form-control from-control-lg", placeholder='Color Code')}}
+                </div>
+                <div class="form-group">
+                    {{ form.font_family(class="form-control from-control-lg", placeholder='Font Family')}}
+                </div>
+                <div class="form-group">
+                    {{ form.submit(class="btn btn-outline-info")}}
+                </div>
+            </fieldset>
+
+        </form>
+    </div>
+</center>
+
+{% endblock %}

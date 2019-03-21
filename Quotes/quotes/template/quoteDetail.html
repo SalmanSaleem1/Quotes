@@ -1,0 +1,17 @@
+{% extends 'layout.html' %}
+{% block content %}
+<article class="media content-section">
+    <div class="media-body">
+        <div class="media">
+            <a class="btn btn-outline-info sm-1" href="{{ url_for('quote.delete_byID', quote_id=que.id)}}">Delete</a>
+            <a class="btn btn-outline-info ml-2" href="{{ url_for('quote.update_byID', quote_id=que.id)}}">Update</a>
+        </div>
+        <hr>
+        <div class="article-metadata">
+            <a class="mr-2" href="">{{ que.quote }}</a>
+            <small class="text-muted"> {{ que.created_at.strftime('%Y, %m, %d') }}</small>
+        </div>
+
+    </div>
+</article>
+{% endblock %}

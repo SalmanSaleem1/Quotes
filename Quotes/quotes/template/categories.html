@@ -1,0 +1,17 @@
+{% extends 'layout.html' %}
+{% block content %}
+<div class="form-group" style="text-align: right">
+    <a href="{{ url_for('category.add_new_category')}}" class="btn btn-outline-info">Add</a>
+</div>
+<div>
+    {% for cat in categories %}
+    <article class="media content-section">
+        <div class="media-body">
+            <div class="article-metadata">
+                <h2><a class="text-bold">{{ cat.category_name }}</a></h2>
+            </div>
+        </div>
+    </article>
+    {% endfor %}
+</div>
+{% endblock %}
