@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e459811b-8c82-4684-b5d9-a1cd11b727a0" name="Default Changelist" comment="" />
+    <list default="true" id="e459811b-8c82-4684-b5d9-a1cd11b727a0" name="Default Changelist" comment="Add Pop Up files" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,50 +9,33 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Quotes$run.coverage" NAME="run Coverage Results" MODIFIED="1553183717437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/quotes" />
+    <SUITE FILE_PATH="coverage/Quotes$forfacebook.coverage" NAME="forfacebook Coverage Results" MODIFIED="1553776649832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/quotes" />
+    <SUITE FILE_PATH="coverage/Quotes$run.coverage" NAME="run Coverage Results" MODIFIED="1553797592938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/quotes" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/quotes/quote/routes.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="75" column="34" selection-start-line="75" selection-start-column="34" selection-end-line="75" selection-end-column="34" />
-              <folding>
-                <element signature="e#0#79#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/quotes/main/routes.py">
+        <entry file="file://$PROJECT_DIR$/quotes/template/homw2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="7" column="8" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/quotes/template/add_new_category.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+            <state relative-caret-position="840">
+              <caret line="56" column="67" selection-start-line="55" selection-start-column="32" selection-end-line="56" selection-end-column="67" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#center#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/quotes/template/add_new_quote.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="44" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="44" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#center#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#a#0;n#td#5;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#form#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -61,64 +44,34 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/quotes/template/categoryDetail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+            <state relative-caret-position="233">
+              <caret line="27" column="35" lean-forward="true" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#center#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/quotes/template/quoteDetail.html">
+        <entry file="file://$PROJECT_DIR$/quotes/quote/routes.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/quotes/categories/routes.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="42" column="34" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="34" />
+              <caret line="10" column="21" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="21" />
               <folding>
-                <element signature="e#0#86#0" expanded="true" />
+                <element signature="e#0#88#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/quotes/template/home.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/quotes/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="28" column="6" selection-start-line="7" selection-end-line="28" selection-end-column="6" />
+            <state relative-caret-position="345">
+              <caret line="29" column="15" lean-forward="true" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
               <folding>
-                <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/quotes/template/categories.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/quotes/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="22" column="15" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="15" />
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
+                <element signature="e#0#23#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -129,43 +82,85 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="CSS File" />
         <option value="Python Script" />
-        <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>container</find>
+      <find>login_</find>
+      <find>container-scroller</find>
+      <find>login_1</find>
+      <find>navbar-brand</find>
+      <find>dropdown-menu</find>
+      <find>navbar-dropdown</find>
+      <find>dropdown-toggle</find>
+      <find>nav-item</find>
+      <find>#</find>
+      <find>exampleModalLabel</find>
+      <find>alertModal</find>
+      <find>sel</find>
+      <find>profile-ima</find>
+      <find>print</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/quotes/run.py" />
         <option value="$PROJECT_DIR$/quotes/template/_ForNav.py" />
         <option value="$PROJECT_DIR$/quotes/template/quotes/template.html" />
-        <option value="$PROJECT_DIR$/quotes/template/layout.html" />
-        <option value="$PROJECT_DIR$/quotes/template/_ForNav.html" />
-        <option value="$PROJECT_DIR$/quotes/template/add_new_category.html" />
-        <option value="$PROJECT_DIR$/quotes/template/add_new_quote.html" />
-        <option value="$PROJECT_DIR$/quotes/template/categories.html" />
         <option value="$PROJECT_DIR$/quotes/template/quoteDetail.html" />
         <option value="$PROJECT_DIR$/quotes/static/Main.css" />
         <option value="$PROJECT_DIR$/quotes/quote/route.py" />
-        <option value="$PROJECT_DIR$/quotes/quote/forms.py" />
         <option value="$PROJECT_DIR$/quotes/main/main.py" />
         <option value="$PROJECT_DIR$/quotes/main/forms.py" />
         <option value="$PROJECT_DIR$/quotes/constants/const.py" />
         <option value="$PROJECT_DIR$/quotes/constants/ApiKey.py" />
         <option value="$PROJECT_DIR$/quotes/categories/__init__.py" />
-        <option value="$PROJECT_DIR$/quotes/categories/forms.py" />
         <option value="$PROJECT_DIR$/quotes/errors/forms.py" />
-        <option value="$PROJECT_DIR$/quotes/__init__.py" />
-        <option value="$PROJECT_DIR$/quotes/template/404.html" />
         <option value="$PROJECT_DIR$/quotes/errors/routes.py" />
-        <option value="$PROJECT_DIR$/quotes/main/routes.py" />
-        <option value="$PROJECT_DIR$/quotes/models.py" />
-        <option value="$PROJECT_DIR$/quotes/categories/routes.py" />
+        <option value="$PROJECT_DIR$/quotes/template/_ForNav.html" />
+        <option value="$PROJECT_DIR$/quotes/user/routes.py" />
+        <option value="$PROJECT_DIR$/quotes/template/layout_auth.html" />
+        <option value="$PROJECT_DIR$/quotes/template/login.html" />
+        <option value="$PROJECT_DIR$/quotes/user/forms.py" />
+        <option value="$PROJECT_DIR$/quotes/static/vendors/iconfonts/mdi/css/materialdesignicons.min.css" />
+        <option value="$PROJECT_DIR$/quotes/template/layout.html" />
+        <option value="$PROJECT_DIR$/quotes/template/_include/_PopupModel.html" />
+        <option value="$PROJECT_DIR$/quotes/template/_include/_PopupAddQuoteModal.html" />
+        <option value="$PROJECT_DIR$/quotes/template/new_quote.html" />
+        <option value="$PROJECT_DIR$/quotes/template/add_quote.html" />
         <option value="$PROJECT_DIR$/quotes/template/home.html" />
-        <option value="$PROJECT_DIR$/quotes/template/categoryDetail.html" />
+        <option value="$PROJECT_DIR$/quotes/template/404.html" />
+        <option value="$PROJECT_DIR$/quotes/quote/util.py" />
+        <option value="$PROJECT_DIR$/quotes/main/routes.py" />
+        <option value="$PROJECT_DIR$/quotes/config.py" />
+        <option value="$PROJECT_DIR$/quotes/run.py" />
+        <option value="$PROJECT_DIR$/quotes/models.py" />
+        <option value="$PROJECT_DIR$/quotes/quote/utils.py" />
+        <option value="$PROJECT_DIR$/quotes/categories/utils.py" />
+        <option value="$PROJECT_DIR$/quotes/quote/forms.py" />
+        <option value="$PROJECT_DIR$/quotes/categories/forms.py" />
+        <option value="$PROJECT_DIR$/quotes/template/categories.html" />
+        <option value="$PROJECT_DIR$/quotes/template/add_new_category.html" />
+        <option value="$PROJECT_DIR$/quotes/template/homw2.html" />
+        <option value="$PROJECT_DIR$/quotes/__init__.py" />
+        <option value="$PROJECT_DIR$/quotes/static/style.css" />
+        <option value="$PROJECT_DIR$/quotes/static/categories.css" />
+        <option value="$PROJECT_DIR$/quotes/template/categoriesWithPics.html" />
+        <option value="$PROJECT_DIR$/quotes/extra.py" />
         <option value="$PROJECT_DIR$/quotes/quote/routes.py" />
+        <option value="$PROJECT_DIR$/quotes/template/add_new_quote.html" />
+        <option value="$PROJECT_DIR$/quotes/categories/routes.py" />
+        <option value="$PROJECT_DIR$/quotes/forfacebook.py" />
+        <option value="$PROJECT_DIR$/quotes/template/_QuoteNavBar.html" />
+        <option value="$PROJECT_DIR$/quotes/template/categoryDetail.html" />
       </list>
     </option>
   </component>
@@ -178,14 +173,18 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="77" />
     <option name="y" value="47" />
-    <option name="width" value="1131" />
+    <option name="width" value="1141" />
     <option name="height" value="641" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -208,18 +207,6 @@
               <item name="Quotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="Quotes" type="462c0819:PsiDirectoryNode" />
               <item name="quotes" type="462c0819:PsiDirectoryNode" />
-              <item name="constants" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Quotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Quotes" type="462c0819:PsiDirectoryNode" />
-              <item name="quotes" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Quotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Quotes" type="462c0819:PsiDirectoryNode" />
-              <item name="quotes" type="462c0819:PsiDirectoryNode" />
               <item name="quote" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -232,24 +219,31 @@
               <item name="Quotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="Quotes" type="462c0819:PsiDirectoryNode" />
               <item name="quotes" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Quotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Quotes" type="462c0819:PsiDirectoryNode" />
+              <item name="quotes" type="462c0819:PsiDirectoryNode" />
               <item name="template" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Quotes" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -257,6 +251,18 @@
         <option name="myUseModuleSdk" value="true" />
       </console-settings>
     </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/quotes/static/images" />
+      <recent name="$PROJECT_DIR$/quotes/static/images/auth" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/quotes" />
+      <recent name="$PROJECT_DIR$/quotes/static/cat_images" />
+      <recent name="$PROJECT_DIR$/quotes/template" />
+      <recent name="$PROJECT_DIR$/quotes/static/images" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -270,7 +276,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.run">
+    <configuration name="forfacebook" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Quotes" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/quotes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/quotes/forfacebook.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Quotes" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -296,6 +324,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.run" />
+        <item itemvalue="Python.forfacebook" />
       </list>
     </recent_temporary>
   </component>
@@ -313,173 +342,344 @@
       <workItem from="1553166663463" duration="829000" />
       <workItem from="1553167568908" duration="151000" />
       <workItem from="1553168122948" duration="12685000" />
+      <workItem from="1553215377379" duration="1225000" />
+      <workItem from="1553253777648" duration="804000" />
+      <workItem from="1553296776932" duration="230000" />
+      <workItem from="1553367468387" duration="18346000" />
+      <workItem from="1553390196702" duration="3316000" />
+      <workItem from="1553431952556" duration="15912000" />
+      <workItem from="1553463168505" duration="4399000" />
+      <workItem from="1553473539775" duration="573000" />
+      <workItem from="1553474114679" duration="2468000" />
+      <workItem from="1553477383183" duration="28000" />
+      <workItem from="1553477444557" duration="1496000" />
+      <workItem from="1553512179938" duration="25528000" />
+      <workItem from="1553554202982" duration="9020000" />
+      <workItem from="1553563569503" duration="1239000" />
+      <workItem from="1553565815022" duration="233000" />
+      <workItem from="1553598850852" duration="9361000" />
+      <workItem from="1553613561308" duration="14354000" />
+      <workItem from="1553643332817" duration="7991000" />
+      <workItem from="1553685764732" duration="1611000" />
+      <workItem from="1553687488075" duration="20657000" />
+      <workItem from="1553728330727" duration="2600000" />
+      <workItem from="1553773908718" duration="20008000" />
+      <workItem from="1553801594776" duration="491000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16739000" />
+    <option name="totallyTimeSpent" value="178629000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26177174" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="DB Browser" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49311295" visible="true" weight="0.26895452" />
+      <window_info id="Structure" order="1" sideWeight="0.5068871" side_tool="true" weight="0.20670392" />
+      <window_info id="DB Browser" order="2" weight="0.1915403" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960095" visible="true" weight="0.32954547" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960095" weight="0.4087948" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39739415" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32899022" />
       <window_info anchor="bottom" id="Docker" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32899022" />
       <window_info anchor="bottom" id="DB Execution Console" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49960095" weight="0.32954547" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49960095" visible="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50039905" side_tool="true" weight="0.32954547" />
-      <window_info anchor="bottom" id="Python Console" order="13" />
+      <window_info anchor="bottom" id="Python Console" order="13" weight="0.32899022" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="14" weight="0.32899022" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32960895" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32960895" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+    <MESSAGE value="Add Pop Up files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Pop Up files" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="form.validate_on_submit()" />
+        <watch expression="form.validate_on_submit()" language="Python" />
+        <watch expression="form.validate_on_submit()" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>form.validate_on_submit()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/quotes/template/_ForNav.py" />
-    <entry file="file://$PROJECT_DIR$/quotes/template/quotes/template.html" />
+    <entry file="file://$PROJECT_DIR$/local/lib/python2.7/site-packages/pip-10.0.1-py2.7.egg/pip/_internal/wheel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="574" column="13" selection-start-line="574" selection-start-column="13" selection-end-line="574" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quotes/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quotes/main/routes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quotes/static/images/e2656f193ab8ce9c.jpg" />
     <entry file="file://$PROJECT_DIR$/quotes/static/Main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="126" column="1" selection-start-line="126" selection-start-column="1" selection-end-line="126" selection-end-column="1" />
+        <state relative-caret-position="260">
+          <caret line="75" column="1" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quotes/main/main.py" />
-    <entry file="file://$PROJECT_DIR$/quotes/constants/ApiKeys.py">
+    <entry file="file://$PROJECT_DIR$/quotes/template/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quotes/constants/const.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quotes/categories/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/sqlalchemy/sql/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4245">
-          <caret line="288" selection-start-line="288" selection-end-line="288" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/sqlalchemy/sql/schema.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20370">
-          <caret line="1383" selection-start-line="1383" selection-end-line="1383" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quotes/categories/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="240">
+          <caret line="16" column="107" selection-start-line="16" selection-start-column="80" selection-end-line="16" selection-end-column="107" />
           <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quotes/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quotes/errors/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quotes/errors/forms.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quotes/template/404.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quotes/template/_ForNav.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="44" column="6" selection-start-line="44" selection-start-column="6" selection-end-line="44" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quotes/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quotes/main/forms.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quotes/template/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quotes/errors/routes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quotes/quote/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/quotes/quotes.db">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="65" selection-start-line="16" selection-start-column="65" selection-end-line="16" selection-end-column="65" />
+        <state relative-caret-position="93">
+          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quotes/static/images/fc7fb0a10b4434cd.jpg" />
+    <entry file="file://$PROJECT_DIR$/quotes/static/images/8690dab545ea440d.jpg" />
+    <entry file="file://$USER_HOME$/PythonProjects/Quotes/venv/lib/python3.6/site-packages/flask/_compat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PythonProjects/Quotes/venv/lib/python3.6/site-packages/flask/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="1798" selection-start-line="1798" selection-end-line="1798" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quotes/static/images/4ecf209f0a557300.jpg" />
+    <entry file="file://$PROJECT_DIR$/quotes/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quotes/categories/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="74" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="74" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quotes/quote/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="17" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/quotes/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="22" column="15" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="15" />
+        <state relative-caret-position="75">
+          <caret line="7" column="64" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quotes/quote/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="89" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="89" />
           <folding>
-            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quotes/categories/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quotes/static/cat_images/773b75abe0fd539d.jpg" />
+    <entry file="file://$PROJECT_DIR$/quotes/static/cat_images/a1b43982180c7b6f.jpg" />
+    <entry file="file://$PROJECT_DIR$/quotes/static/cat_images/e2bffa81694ca40f.jpg" />
+    <entry file="file://$PROJECT_DIR$/quotes/static/cat_images/e32caeadcbe551ea.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quotes/static/cat_images/ac5ea13e73f23c8d.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quotes/static/cat_images/4656cd9873c84c42.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quotes/static/images/286ac7811e7d5326.jpg" />
+    <entry file="file://$PROJECT_DIR$/quotes/static/images/730a7257f85eb8bd.jpg" />
+    <entry file="file://$PROJECT_DIR$/quotes/static/cat_images/default.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quotes/static/images/b75f5159f8c118ea.jpg" />
+    <entry file="file://$PROJECT_DIR$/quotes/static/images/register.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quotes/static/images/login_1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quotes/static/images/e5b3ebe7bd8909b7.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quotes/static/images/77590657177aa0f7.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quotes/static/images/default.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quotes/template/_include/_PopupModel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="22" column="69" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="69" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#button#1;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PythonProjects/Quotes/venv/lib/python3.6/site-packages/flask_sqlalchemy/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="793" selection-start-line="793" selection-end-line="793" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quotes/template/categories.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" column="111" selection-start-line="44" selection-start-column="37" selection-end-line="44" selection-end-column="111" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#a#0;n#td#3;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quotes/template/add_new_category.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quotes/template/add_new_quote.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1770">
+          <caret line="118" column="58" selection-start-line="118" selection-start-column="58" selection-end-line="118" selection-end-column="58" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quotes/static/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321105">
+          <caret line="21407" selection-start-line="21407" selection-end-line="21407" />
+          <folding>
+            <element signature="e#340776#340976#2" expanded="true" />
+            <element signature="e#341210#341359#2" expanded="true" />
+            <element signature="e#341932#342078#2" expanded="true" />
+            <element signature="e#342452#342618#1" expanded="true" />
+            <element signature="e#353704#353947#2" expanded="true" />
+            <element signature="e#354972#355221#2" expanded="true" />
+            <element signature="e#385470#385660#2" expanded="true" />
+            <element signature="e#385717#385907#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quotes/static/categories.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quotes/extra.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quotes/forfacebook.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="71" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quotes/template/categoriesWithPics.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -487,80 +687,74 @@
     <entry file="file://$PROJECT_DIR$/quotes/template/quoteDetail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
+          <caret line="10" column="42" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quotes/template/home.html">
+    <entry file="file://$PROJECT_DIR$/quotes/template/layout.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="28" column="6" selection-start-line="7" selection-end-line="28" selection-end-column="6" />
+        <state relative-caret-position="165">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quotes/template/_QuoteNavBar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="20" lean-forward="true" selection-start-line="10" selection-end-line="11" selection-end-column="20" />
           <folding>
-            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#a#0;n#li#0;n#ul#1;n#div#1;n#nav#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quotes/template/add_new_category.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#center#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quotes/template/add_new_quote.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="44" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="44" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#center#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quotes/template/categories.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quotes/template/categoryDetail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/quotes/categories/routes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="42" column="34" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="34" />
+        <state relative-caret-position="120">
+          <caret line="44" column="42" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="42" />
           <folding>
             <element signature="e#0#86#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quotes/main/routes.py">
+    <entry file="file://$PROJECT_DIR$/quotes/template/homw2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="8" />
+        <state relative-caret-position="840">
+          <caret line="56" column="67" selection-start-line="55" selection-start-column="32" selection-end-line="56" selection-end-column="67" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#a#0;n#td#5;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#form#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/quotes/quote/routes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="75" column="34" selection-start-line="75" selection-start-column="34" selection-end-line="75" selection-end-column="34" />
+        <state relative-caret-position="150">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="21" />
           <folding>
-            <element signature="e#0#79#0" expanded="true" />
+            <element signature="e#0#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quotes/template/categoryDetail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="27" column="35" lean-forward="true" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#center#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quotes/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="29" column="15" lean-forward="true" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>

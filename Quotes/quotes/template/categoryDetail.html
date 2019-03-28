@@ -1,25 +1,43 @@
 {% extends 'layout.html' %}
 {% block content %}
-<div>
-    {% for que in quote %}
-    <article class="media content-section">
-        <div class="media-body">
-            <div class="article-metadata">
-                <h4 class="mr-2"><a>{{ que.category_id }}</a></h4>
-                <small class="text-muted">Create At: {{ que.created_at.strftime('%d, %m, %Y')}}</small>
-                <!--<div class="media">-->
-                <!--<small class="text-muted">Updated At: {{ que.updated_at.strftime('%d, %m, %Y')}}</small>-->
-                <!--</div>-->
-                 <h2><p class="text-bold">{{ que.quote }}</p></h2>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#share_button').click(function (e) {
+            e.preventDefault();
+            FB.ui(
+                {
+                    method: 'feed',
+                    name: 'This is the content of the "name" field.',
+                    link: 'http://www.groupstudy.in/articlePost.php?id=A_111213073144',
+                    picture: 'http://www.groupstudy.in/img/logo3.jpeg',
+                    caption: 'Top 3 reasons why you should care about your finance',
+                    description: "What happens when you don't take care of your finances? Just look at our country -- you spend irresponsibly, get in debt up to your eyeballs, and stress about how you're going to make ends meet. The difference is that you don't have a glut of taxpayers…",
+                    message: ""
+                });
+        });
+    });
+</script>
+<center>
+    <div style="width: 800px">
+        {% for que in quote %}
+        <article class="media">
+            <div class="media-body">
+                <div class="article-metadata">
+                    <img src="{{url_for('static', filename='images/' + que.image_file)}}"
+                         class="rounded profile-image">
+                    <h4 class="mr-2"><a>{{ que.category_id }}</a></h4>
+                    <small class="text-muted">Create At: {{ que.created_at.strftime('%d, %m, %Y')}}</small>
+                    <h2><a class="text-bold" href="{{ url_for('quote.get_byID', quote_id=que.id)}}">{{ que.quote }}</a>
+                    </h2>
+
+                    <button class="btn btn-primary" id="share_button"></button>
+                </div>
             </div>
-        </div>
-        <!--<div style="text-align: right">-->
-            <!--<h4 class="text-arial">{{ que.language }}</h4>-->
+        </article>
+        <hr>
+        {% endfor %}
 
-        <!--</div>-->
-    </article>
-    <hr>
-    {% endfor %}
-
-</div>
+    </div>
+</center>
 {% endblock %}
